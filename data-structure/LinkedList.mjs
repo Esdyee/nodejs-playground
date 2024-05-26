@@ -32,6 +32,7 @@ class LinkedList {
 		this.head = null;
 		this.count = 0;
 	}
+	
 	insertAt(index, data) {
 		if(index > this.count || index < 0) {
 			throw new Error('Index out of bounds');
